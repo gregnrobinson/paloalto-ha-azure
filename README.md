@@ -2,7 +2,7 @@
 
 The purpose of this repository is to automate the deployment of the Azure resources required for high availabiltiy of Palo Alto Firewalls. This is the standard architecture deployment for firewalls that take advantage of high availability in Azure. This architecture has become more popular since the introduction of HA Ports on the internal load balancer in Azure. The script handles the loadbalancing, networking and infrasturcture configurations.
 
-![Scheme](https://bitbucket.org/slalom-consulting/paloalto-ha-azure/raw/cce054ff280bd2ab493535e812d2d0ecad46d32d/Data/pan_ha_architecture.png)
+![Scheme](https://github.com/gregnrobinson/paloalto-ha-azure/blob/master/Data/pan_ha_architecture.png?raw=true)
 
 Prior to deploying the Palo Alto firewalls in the environment, the account being used for the terraform deployment must run the below Azure CLI command to accept the terms and conditions of the firewall model being used.
 
